@@ -25,6 +25,7 @@ body {
     background-color: var(--veryDarkBlue);
 }
 
+/* reused */
 .container {
     min-height: 100vh;
     display: flex;
@@ -34,6 +35,7 @@ body {
     padding: 3rem 0;
 }
 
+/* reused */
 .form {
     background-image: radial-gradient(circle farthest-corner at 50% 0%, var(--darkBlue) 0%, var(--veryDarkBlue) 140%);
     max-width: 27.33rem;
@@ -50,7 +52,8 @@ body {
     text-align: center;
 }
 
-h1 {
+/* reused */
+h1.header {
     color: var(--white);
     margin: 0.9em 0 0.3em 0;
     font-weight: 400;
@@ -62,6 +65,7 @@ fieldset {
     border: none;
 }
 
+/* reused */
 .description {
     line-height: 1.5em;
 }
@@ -116,6 +120,27 @@ fieldset {
 .btn:active {
     background-color: var(--white);
     color: var(--orange);
+}
+
+/* For rating.html specific styling */
+article.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2.3rem 3rem 2.3rem;
+}
+
+img.icon {
+    margin-top: 1rem;
+}
+
+div.rating-message {
+    background-color: var(--darkBlue);
+    color: var(--orange);
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    margin: 2rem 0 0.7rem 0;
 }
 
 .attribution {
