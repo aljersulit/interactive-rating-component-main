@@ -133,6 +133,12 @@ article.form {
 
 img.icon {
     margin-top: 1rem;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+img.icon:hover {
+    transform: scale(1.1, 1.1);
 }
 
 div.rating-message {
